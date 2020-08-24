@@ -1372,3 +1372,61 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
+
+#b-h-body{
+	margin-left: 10%;
+	width: 80%;
+	min-width: 1000px;
+	position: relative;
+}
+.b-h-head {
+	background-color: red;
+	width: 100%;
+	background-image: url(images/banner.jpg);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.b-h-userinfo {
+	float: left;
+	width: 30%;
+}
+.b-h-content {
+	float: left;
+	width: 70%;
+	padding: 30px 0;
+}
+.b-h-userinfo>img {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: #f1f1f1 solid 1;
+	margin-left: 25%;
+	margin-top: 100px;
+}
+.b-h-userinfo>p {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.b-h-c-row {
+	margin-top: 10px;
+	background-color: #F1F1F1;
+	border-radius: 10px;
+	margin-left: 30px;
+	padding: 10px;
+}
+.b-time{
+	font-size: 13px;
+	color: #999;
+	padding: 10px;
+	
+}
+.b-title {
+	padding: 0 10px 0; 
+} 
+.b-title>a {
+	color: block;
+	font-size: 15px;
+}
